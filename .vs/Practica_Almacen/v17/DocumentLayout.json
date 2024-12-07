@@ -1,0 +1,188 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\net-practicas\\Practica_Almacen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|d:\\net-practicas\\practica_almacen\\practica_almacen\\form_articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\form_articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|D:\\net-practicas\\Practica_Almacen\\practica_almacen\\d_articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\d_articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|D:\\net-practicas\\Practica_Almacen\\practica_almacen\\form_articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\form_articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|d:\\net-practicas\\practica_almacen\\practica_almacen\\form_rpt_art.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\form_rpt_art.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|D:\\net-practicas\\Practica_Almacen\\practica_almacen\\form_rpt_art.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\form_rpt_art.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|D:\\net-practicas\\Practica_Almacen\\practica_almacen\\rpt_articulo.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\rpt_articulo.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|D:\\net-practicas\\Practica_Almacen\\practica_almacen\\dataset_data.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\dataset_data.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|D:\\net-practicas\\Practica_Almacen\\practica_almacen\\dataset_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\dataset_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|D:\\net-practicas\\Practica_Almacen\\practica_almacen\\p_articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\p_articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|D:\\net-practicas\\Practica_Almacen\\practica_almacen\\form_rpt_art.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F5DBD93-FEF6-4CB3-9FA9-5AE74AC0017A}|Practica_Almacen\\Practica_Almacen.csproj|solutionrelative:practica_almacen\\form_rpt_art.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_articulos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_articulos.cs",
+              "RelativeDocumentMoniker": "Practica_Almacen\\Form_articulos.cs",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_articulos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practica_Almacen\\Form_articulos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T04:57:28.001Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_articulos.cs",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_articulos.cs",
+              "RelativeDocumentMoniker": "Practica_Almacen\\Form_articulos.cs",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_articulos.cs",
+              "RelativeToolTip": "Practica_Almacen\\Form_articulos.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAvwIQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:42:40.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "D_Articulos.cs",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\D_Articulos.cs",
+              "RelativeDocumentMoniker": "Practica_Almacen\\D_Articulos.cs",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\D_Articulos.cs",
+              "RelativeToolTip": "Practica_Almacen\\D_Articulos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:39:41.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_RPT_art.cs",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_RPT_art.cs",
+              "RelativeDocumentMoniker": "Practica_Almacen\\Form_RPT_art.cs",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_RPT_art.cs",
+              "RelativeToolTip": "Practica_Almacen\\Form_RPT_art.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvy8AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:41:41.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rpt_articulo.rdlc [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Rpt_articulo.rdlc",
+              "RelativeDocumentMoniker": "Practica_Almacen\\Rpt_articulo.rdlc",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Rpt_articulo.rdlc [Dise\u00F1o]",
+              "RelativeToolTip": "Practica_Almacen\\Rpt_articulo.rdlc [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-12-06T04:25:22.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSet_data.xsd",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\DataSet_data.xsd",
+              "RelativeDocumentMoniker": "Practica_Almacen\\DataSet_data.xsd",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\DataSet_data.xsd",
+              "RelativeToolTip": "Practica_Almacen\\DataSet_data.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2024-12-06T05:37:45.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form_RPT_art.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_RPT_art.cs",
+              "RelativeDocumentMoniker": "Practica_Almacen\\Form_RPT_art.cs",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_RPT_art.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practica_Almacen\\Form_RPT_art.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T04:31:29.104Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataSet_data.cs",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\DataSet_data.cs",
+              "RelativeDocumentMoniker": "Practica_Almacen\\DataSet_data.cs",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\DataSet_data.cs",
+              "RelativeToolTip": "Practica_Almacen\\DataSet_data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T05:37:56.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "P_articulos.cs",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\P_articulos.cs",
+              "RelativeDocumentMoniker": "Practica_Almacen\\P_articulos.cs",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\P_articulos.cs",
+              "RelativeToolTip": "Practica_Almacen\\P_articulos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T05:42:03.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form_RPT_art.Designer.cs",
+              "DocumentMoniker": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_RPT_art.Designer.cs",
+              "RelativeDocumentMoniker": "Practica_Almacen\\Form_RPT_art.Designer.cs",
+              "ToolTip": "D:\\net-practicas\\Practica_Almacen\\Practica_Almacen\\Form_RPT_art.Designer.cs",
+              "RelativeToolTip": "Practica_Almacen\\Form_RPT_art.Designer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwB4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T05:12:39.482Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
