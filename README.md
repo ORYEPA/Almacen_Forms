@@ -1,12 +1,3 @@
-
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
-Aquí tienes un ejemplo de cómo podría estructurarse el contenido para el README de tu proyecto en GitHub:  
-
----
-
 # Gestión de Inventarios y Reportes  
 
 Este es un programa desarrollado en **C# utilizando Windows Forms**, diseñado para conectar con una base de datos y ofrecer funcionalidades clave como la generación de reportes, consulta de stock de artículos, y visualización de marcas y categorías.  
