@@ -26,7 +26,7 @@ El programa utiliza una base de datos bien estructurada con las siguientes tabla
 ## Instalación  
 1. **Clonar el Repositorio:**  
    ```bash  
-   git clone https://github.com/tuusuario/gestion-inventarios.git  
+   git clone https://github.com/ORYEPA/Almacen_Forms.git
    cd gestion-inventarios  
    ```  
 2. **Configurar la Base de Datos:**  
