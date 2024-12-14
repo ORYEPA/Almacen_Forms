@@ -52,16 +52,24 @@
             this.search = new System.Windows.Forms.Label();
             this.bnt_search = new System.Windows.Forms.Button();
             this.Panel_Medida = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
             this.Return_medida = new System.Windows.Forms.Button();
             this.DGV_Medida = new System.Windows.Forms.DataGridView();
             this.Panel_categoria = new System.Windows.Forms.Panel();
             this.Return_categoria = new System.Windows.Forms.Button();
             this.DGV_categoria = new System.Windows.Forms.DataGridView();
+            this.btn_marca = new System.Windows.Forms.Button();
+            this.Panel_Marca = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_ARTICULOS)).BeginInit();
             this.Panel_Medida.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Medida)).BeginInit();
             this.Panel_categoria.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGV_categoria)).BeginInit();
+            this.Panel_Marca.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // DGV_ARTICULOS
@@ -166,11 +174,11 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 13);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Medida:";
+            this.label4.Text = "Modelo:";
             // 
             // text_stock
             // 
-            this.text_stock.Location = new System.Drawing.Point(740, 22);
+            this.text_stock.Location = new System.Drawing.Point(756, 19);
             this.text_stock.Name = "text_stock";
             this.text_stock.ReadOnly = true;
             this.text_stock.Size = new System.Drawing.Size(100, 20);
@@ -179,7 +187,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(689, 25);
+            this.label5.Location = new System.Drawing.Point(705, 22);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(38, 13);
             this.label5.TabIndex = 11;
@@ -285,13 +293,25 @@
             // 
             // Panel_Medida
             // 
+            this.Panel_Medida.Controls.Add(this.button4);
             this.Panel_Medida.Controls.Add(this.Return_medida);
             this.Panel_Medida.Controls.Add(this.DGV_Medida);
-            this.Panel_Medida.Location = new System.Drawing.Point(465, 103);
+            this.Panel_Medida.Location = new System.Drawing.Point(442, 232);
             this.Panel_Medida.Name = "Panel_Medida";
             this.Panel_Medida.Size = new System.Drawing.Size(200, 276);
             this.Panel_Medida.TabIndex = 23;
             this.Panel_Medida.Visible = false;
+            // 
+            // button4
+            // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.button4.Location = new System.Drawing.Point(122, 238);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 22);
+            this.button4.TabIndex = 26;
+            this.button4.Text = "Agregar";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Return_medida
             // 
@@ -322,7 +342,7 @@
             // 
             this.Panel_categoria.Controls.Add(this.Return_categoria);
             this.Panel_categoria.Controls.Add(this.DGV_categoria);
-            this.Panel_categoria.Location = new System.Drawing.Point(755, 103);
+            this.Panel_categoria.Location = new System.Drawing.Point(799, 232);
             this.Panel_categoria.Name = "Panel_categoria";
             this.Panel_categoria.Size = new System.Drawing.Size(200, 276);
             this.Panel_categoria.TabIndex = 25;
@@ -352,11 +372,67 @@
             this.DGV_categoria.TabIndex = 24;
             this.DGV_categoria.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGV_categoria_CellDoubleClick);
             // 
+            // btn_marca
+            // 
+            this.btn_marca.Enabled = false;
+            this.btn_marca.Location = new System.Drawing.Point(648, 23);
+            this.btn_marca.Name = "btn_marca";
+            this.btn_marca.Size = new System.Drawing.Size(35, 16);
+            this.btn_marca.TabIndex = 26;
+            this.btn_marca.Text = ":::";
+            this.btn_marca.UseVisualStyleBackColor = true;
+            this.btn_marca.Click += new System.EventHandler(this.btn_marca_click);
+            // 
+            // Panel_Marca
+            // 
+            this.Panel_Marca.Controls.Add(this.button3);
+            this.Panel_Marca.Controls.Add(this.button2);
+            this.Panel_Marca.Controls.Add(this.dataGridView1);
+            this.Panel_Marca.Location = new System.Drawing.Point(100, 232);
+            this.Panel_Marca.Name = "Panel_Marca";
+            this.Panel_Marca.Size = new System.Drawing.Size(200, 276);
+            this.Panel_Marca.TabIndex = 25;
+            this.Panel_Marca.Visible = false;
+            // 
+            // button3
+            // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.button3.Location = new System.Drawing.Point(122, 238);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 22);
+            this.button3.TabIndex = 25;
+            this.button3.Text = "Agregar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Cursor = System.Windows.Forms.Cursors.SizeNESW;
+            this.button2.Location = new System.Drawing.Point(4, 238);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 22);
+            this.button2.TabIndex = 24;
+            this.button2.Text = "Regresar";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.Size = new System.Drawing.Size(200, 229);
+            this.dataGridView1.TabIndex = 24;
+            // 
             // Form_articulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1301, 550);
+            this.Controls.Add(this.Panel_Marca);
+            this.Controls.Add(this.btn_marca);
             this.Controls.Add(this.Panel_categoria);
             this.Controls.Add(this.Panel_Medida);
             this.Controls.Add(this.bnt_search);
@@ -390,6 +466,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.DGV_Medida)).EndInit();
             this.Panel_categoria.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DGV_categoria)).EndInit();
+            this.Panel_Marca.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -426,5 +504,11 @@
         private System.Windows.Forms.Panel Panel_categoria;
         private System.Windows.Forms.Button Return_categoria;
         private System.Windows.Forms.DataGridView DGV_categoria;
+        private System.Windows.Forms.Button btn_marca;
+        private System.Windows.Forms.Panel Panel_Marca;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
     }
 }

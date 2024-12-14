@@ -85,6 +85,7 @@ namespace Practica_Almacen
         {
             btn_medida.Enabled = lEstado;
             btn_cat.Enabled = lEstado;
+            btn_marca.Enabled = lEstado;
             btn_cancelar.Enabled = lEstado;
             btn_guardar.Enabled = lEstado;
 
@@ -127,9 +128,9 @@ namespace Practica_Almacen
                 text_art.Text = Convert.ToString(DGV_ARTICULOS.CurrentRow.Cells["DESCRIPCION"].Value);
                 text_marca.Text = Convert.ToString(DGV_ARTICULOS.CurrentRow.Cells["MARCA"].Value);
                 text_stock.Text = Convert.ToString(DGV_ARTICULOS.CurrentRow.Cells["STOCK"].Value);
-                text_cat.Text = Convert.ToString(DGV_ARTICULOS.CurrentRow.Cells["ID_CATEGORIA"].Value);
-                text_medida.Text = Convert.ToString(DGV_ARTICULOS.CurrentRow.Cells["ID_UNIDAD"].Value);
-                nMedida=  Convert.ToInt32(DGV_ARTICULOS.CurrentRow.Cells["ID_UNIDAD"].Value);
+                text_cat.Text = Convert.ToString(DGV_ARTICULOS.CurrentRow.Cells["ID_MARCA"].Value);
+                text_medida.Text = Convert.ToString(DGV_ARTICULOS.CurrentRow.Cells["ID_MODELO"].Value);
+                nMedida=  Convert.ToInt32(DGV_ARTICULOS.CurrentRow.Cells["ID_CATEGORIA"].Value);
                 nCat=  Convert.ToInt32(DGV_ARTICULOS.CurrentRow.Cells["ID_CATEGORIA"].Value);
             }
         }
@@ -370,6 +371,18 @@ namespace Practica_Almacen
         {
             this.Selecciona_item_cat();
             Panel_categoria.Visible = false;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_marca_click(object sender, EventArgs e)
+        {
+            Panel_Marca.Location = btn_marca.Location;
+            Panel_Marca.Visible = true;
+
         }
     }
 }

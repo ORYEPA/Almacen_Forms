@@ -18,14 +18,16 @@ namespace Practica_Almacen
                     string query = "SELECT " +
                                    "art.ID, " +
                                    "art.DESCRIPCION, " +
-                                   "art.MARCA, " +
-                                   "unidades.DESCRIPCION AS UNIDAD, " +
+                                   "marca.DESCRIPCION as MARCA, " +
+                                   "Modelo.DESCRIPCION AS MODELO, " +
                                    "cat.DESCRIPCION AS CATEGORIA, " +
                                    "art.STOCK, " +
-                                   "art.ID_UNIDAD, " +
+                                   "art.ID_MARCA, " +
+                                   "art.ID_MODELO, " +
                                    "art.ID_CATEGORIA " +
                                    "FROM udemy.db_articulos art " +
-                                   "INNER JOIN udemy.db_unidades unidades ON art.ID_UNIDAD = unidades.ID " +
+                                   "INNER JOIN udemy.db_modelo modelo ON art.ID_MODELO = modelo.ID " +
+                                   "INNER JOIN udemy.db_marca marca ON art.ID_MARCA = marca.ID " +
                                    "INNER JOIN udemy.db_categorias cat ON art.ID_CATEGORIA = cat.ID " +
                                    "WHERE art.DESCRIPCION LIKE @cTexto " +
                                    "ORDER BY art.ID;";
@@ -141,7 +143,7 @@ namespace Practica_Almacen
         }
 
 
-        public DataTable Lista_Medida ()
+        public DataTable Lista_Marca ()
         {
             MySqlDataReader resultado;
             DataTable dataTable = new DataTable();
@@ -150,7 +152,7 @@ namespace Practica_Almacen
             {
                 sqlCon = Conexion.GetInstancia().CrearConexion();
                 
-                string query = "SELECT DESCRIPCION , id FROM udemy.db_unidades; ";
+                string query = "SELECT DESCRIPCION , id FROM udemy.db_marca; ";
 
                 MySqlCommand command = new MySqlCommand(query, sqlCon);
                 command.CommandTimeout = 60;
@@ -162,7 +164,7 @@ namespace Practica_Almacen
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error al obtener la lista de artículos: " + ex.Message);
+                Console.WriteLine("Error al obtener la lista de marcas: " + ex.Message);
                 throw;
             }
             finally
@@ -194,7 +196,7 @@ namespace Practica_Almacen
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Error al obtener la lista de artículos: " + ex.Message);
+                Console.WriteLine("Error al obtener la lista de categorias: " + ex.Message);
                 throw;
             }
             finally
